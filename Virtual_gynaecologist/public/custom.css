@@ -1,0 +1,85 @@
+/* custom.css */
+/* To further customize the UI */
+
+/* Make input box more prominent */
+.cl-input-box {
+  border: 2px solid #E91E63;
+  border-radius: 8px;
+}
+
+/* Style messages */
+.cl-message-content {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E91E63;
+  border-radius: 4px;
+}
+
+/* Custom styling for code blocks */
+.cl-message-content pre {
+  background-color: #2d2d2d;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+/* Style the custom buttons */
+.cl-custom-element button {
+  transition: all 0.2s ease;
+}
+
+.cl-custom-element button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style file upload area */
+.cl-upload-droparea {
+  border: 2px dashed #E91E63;
+  border-radius: 8px;
+  padding: 16px;
+  transition: all 0.2s ease;
+}
+
+.cl-upload-droparea:hover {
+  background-color: rgba(233, 30, 99, 0.05);
+}
+
+/* Doctor advice styling */
+.cl-message-content strong {
+  color: #E91E63;
+}
+
+/* Style the question cards */
+.cl-custom-element .card {
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Style the doctor advice section */
+.doctor-advice {
+  background-color: #fdf8fa;
+  border-left: 4px solid #E91E63;
+  padding: 12px 16px;
+  margin: 16px 0;
+  border-radius: 4px;
+}
+
+/* Style the heading for advice */
+.doctor-advice-heading {
+  font-weight: 600;
+  color: #E91E63;
+  margin-bottom: 8px;
+  font-size: 18px;
+}

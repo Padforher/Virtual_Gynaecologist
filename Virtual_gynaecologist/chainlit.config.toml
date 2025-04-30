@@ -1,0 +1,29 @@
+# chainlit.config.toml
+
+[project]
+name = "Gynecologist Assistant"
+
+[features]
+# Enable chat history
+chat_history = true
+# Enable file uploads
+multi_modal = false
+
+[ui]
+name = "Gynecologist Assistant"
+description = "Your personal AI gynecology assistant powered by Gemini"
+show_footer = true
+footer_text = "Powered by ZZWICK Hygiene. Not a substitute for professional medical advice."
+
+[ui.theme]
+primary_color = "#E91E63" # A more feminine/medical pink color
+
+[ui.github]
+show_github = true
+
+# Enable file uploads
+[ui.input]
+disable_file_upload = true
+
+[UI]
+custom_css = './public/custom.css'
